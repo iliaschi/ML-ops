@@ -1,0 +1,11 @@
+# One of the config files, maybe we should create more?
+
+dataset:
+  train_split: 0.80
+  val_split: 0.20
+
+# Should we make a dictionary file with many different hyperparameters?
+hyperparameters:
+  batch_size: 10
+  lr: 1e-3
+  num_epochs: 100
